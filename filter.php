@@ -51,7 +51,7 @@ class filter_fontawesome extends moodle_text_filter {
         // now this part has been left unfinished.
 
         // We should search only for reference to FontAwesome icons.
-        $search = "{[[?]icon-([[:alnum:]-]*)[]?]}";
+        $search = "(\[(.*?)\])is";
         $text = preg_replace_callback($search, array($this, 'callback'), $text);
 
         return $text;
@@ -91,12 +91,12 @@ class filter_fontawesome extends moodle_text_filter {
      */
     protected function load_global_config() {
         if (is_null(self::$globalconfig)) {
-            self::$globalconfig = get_config('filter_emoticon');
+            self::$globalconfig = get_config('filter_fontawesome');
         }
     }
     
     private function callback(array $matches) {
-        $embed = '<i class="icon-'.$matches[1].'"></i>';
+        $embed = '<i class="'.$matches[1].'"></i>';
 
         return $embed;
     }
