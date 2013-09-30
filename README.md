@@ -22,6 +22,10 @@ Settings
 =========================
 filter_fontawesome has a settings page to allow you to limit the filter to only certain textbox formats.
 
+Still to be done
+=========================
+I am still figuring out how to add an abilityt  o detect a custom variable to allow the user to set the icon size.
+
 Copyright
 =========================
 Written by Julian (@moodleman) Ridden. Visit the blog at http://www.moodleman.net

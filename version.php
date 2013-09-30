@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for filter_urltolink
+ * Config for filter_fontawesome
  *
  * @package    filter
  * @subpackage fontawesome
