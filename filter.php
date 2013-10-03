@@ -51,7 +51,7 @@ class filter_fontawesome extends moodle_text_filter {
         // now this part has been left unfinished.
 
         // We should search only for reference to FontAwesome icons.
-        $search = "(\[(.*?)\])is";
+        $search = "(\[(icon-.*?)\])is";
         $text = preg_replace_callback($search, array($this, 'callback'), $text);
 
         return $text;
