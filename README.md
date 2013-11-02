@@ -29,3 +29,4 @@ I am still figuring out how to add an abilityt  o detect a custom variable to al
 Copyright
 =========================
 Written by Julian (@moodleman) Ridden. Visit the blog at http://www.moodleman.net
+Updated by David Bezemer. Visit his company page at http://www.uplearning.nl
