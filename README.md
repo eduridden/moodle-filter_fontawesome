@@ -16,7 +16,7 @@ Usage
 =========================
 First, activate the filter_tabs plugin in Site Administration -> Plugins -> Filters -> Manage filters
 
-To create FontAwesome icons in textfields, use the following syntax: [icon-*] where * is the name of the icon you wish to display
+To create FontAwesome icons in textfields, use the following syntax: [fa-*] where * is the name of the icon you wish to display
 
 Settings
 =========================

@@ -51,7 +51,7 @@ class filter_fontawesome extends moodle_text_filter {
         // now this part has been left unfinished.
 
         // We should search only for reference to FontAwesome icons.
-        $search = "(\[(icon-.*?)\])is";
+        $search = "(\[(fa-.*?)\])is";
         $text = preg_replace_callback($search, array($this, 'callback'), $text);
 
         return $text;
@@ -96,7 +96,7 @@ class filter_fontawesome extends moodle_text_filter {
     }
     
     private function callback(array $matches) {
-        $embed = '<i class="'.$matches[1].'"></i>';
+        $embed = '<i class="fa '.$matches[1].'"></i>';
 
         return $embed;
     }
