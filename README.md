@@ -4,13 +4,15 @@ This filter allows you to use fontawesome icons in the Moodle text editor withou
 
 Requirements
 =========================
-Your site/theme must have FontAwesome embedded already. This filter does not provide the font.
+Moodle 2.6+
+
+This filter now provides FontAwesome 4 by means of: http://docs.moodle.org/dev/Themes_overview#Adding_custom_fonts in M2.6+.
 
 Installation
 =========================
 Install the plugin like any other plugin to folder /filter/fontawesome
 
-See http://docs.moodle.org/25/en/Installing_plugins for details on installing Moodle plugins
+See http://docs.moodle.org/26/en/Installing_plugins for details on installing Moodle plugins
 
 Usage
 =========================
@@ -30,3 +32,4 @@ Copyright
 =========================
 Written by Julian (@moodleman) Ridden. Visit the blog at http://www.moodleman.net
 Updated by David Bezemer. Visit his company page at http://www.uplearning.nl
+Updated by Gareth J Barnard (@gjbarnard).  Profile: about.me/gjbarnard
