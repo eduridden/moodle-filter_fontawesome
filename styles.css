@@ -1,4 +1,15 @@
-@font-face{font-family:'FontAwesome';src:url('../filter/fontawesome/fonts/fontawesome-webfont.eot?v=4.0.1');src:url('../filter/fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('../filter/fontawesome/fonts/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('../filter/fontawesome/fonts/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('../filter/fontawesome/fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+@font-face {
+  font-family: 'FontAwesome';
+  /* Use correct way of including font files: http://docs.moodle.org/dev/Themes_overview#Adding_custom_fonts */
+  /*src: url('[[font:filter_fontawesome|FontAwesome.otf]]'); OTF file is not installable, so IE winges: https://github.com/FortAwesome/Font-Awesome/issues/2517 */
+  src: url('[[font:filter_fontawesome|fontawesome-webfont.eot]]') format('embedded-opentype'),
+       url('[[font:filter_fontawesome|fontawesome-webfont.woff]]') format('woff'),
+       url('[[font:filter_fontawesome|fontawesome-webfont.ttf]]') format('truetype'),
+       url('[[font:filter_fontawesome|fontawesome-webfont.svg]]#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.3333333333333333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
 .fa-3x{font-size:3em}
